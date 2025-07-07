@@ -11,3 +11,10 @@ sentencepiece
 protobuf
 modelscope
 ftfy
+pandas
+pillow
+numpy
+opencv-python
+matplotlib
+lightning
+websockets
