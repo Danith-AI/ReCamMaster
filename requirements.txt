@@ -13,7 +13,7 @@ modelscope
 ftfy
 pandas
 pillow
-numpy
+numpy<2.0
 opencv-python
 matplotlib
 lightning
