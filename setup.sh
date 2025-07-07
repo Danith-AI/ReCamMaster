@@ -10,3 +10,7 @@ pip install -e .
 
 # Download model
 python download_wan2.1.py
+
+# Download ReCamMaster checkpoint
+mkdir -p models/ReCamMaster/checkpoints
+wget -O models/ReCamMaster/checkpoints/step20000.ckpt "https://huggingface.co/KwaiVGI/ReCamMaster-Wan2.1/resolve/main/step20000.ckpt"

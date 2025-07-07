@@ -68,7 +68,8 @@ Install [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio):
 ```shell
 git clone https://github.com/KwaiVGI/ReCamMaster.git
 cd ReCamMaster
-pip install -e .
+# Install the Python dependencies
+pip install -e .  # or: pip install -r requirements.txt
 ```
 
 Step 2: Download the pretrained checkpoints
@@ -115,7 +116,8 @@ We provide several preset camera types, as shown in the table below. Additionall
 Step 1: Set up the environment
 
 ```shell
-pip install lightning pandas websockets
+# Install dependencies for training
+pip install -e .  # or: pip install -r requirements.txt
 ```
 
 Step 2: Prepare the training dataset
